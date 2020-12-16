@@ -5,12 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevTalk</title>
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="./public/style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h1>DevTalk</h1>
 
+    <section class="chat-section">
+        <div class="brand">
+            <img height="40" src="/images/icon.jpg" alt="ICON">
+            <h1>DevTalk</h1>
+        </div>
+
+        <div class="message-area">
+            <div class="incoming message">
+                <h4>Raj</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, saepe.</p>
+            </div>
+            <div class="outgoing message">
+                <h4>Aryan</h4>
+                <p>Lorem ipsum DOLOR sit amet consectetur adipisicing elit. Eos, saepe.</p>
+            </div>
+        </div>
+        <div>
+            <textarea id="textarea" cols="30" rows="1" placeholder="Type a message ..."></textarea>
+        </div>
+    </section>
     <!-- Client Side Script -->
-    <script src="./public//client.js"></script>
+    <script src="/client.js"></script>
 </body>
 </html>
