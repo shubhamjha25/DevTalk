@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DevTalk</title>
+    <title>DevTalk - The Online Discussion Forum</title>
     <!-- Stylesheet -->
     <link rel="stylesheet" href="/style.css">
 </head>
@@ -12,23 +12,16 @@
     <section class="chat-section">
         <div class="brand">
             <img height="40" src="/images/icon.jpg" alt="ICON">
-            <h1>DevTalk</h1>
+            <h1>DevTalk - Discuss Your Ideas</h1>
         </div>
 
-        <div class="message-area">
-            <div class="incoming message">
-                <h4>Raj</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, saepe.</p>
-            </div>
-            <div class="outgoing message">
-                <h4>Aryan</h4>
-                <p>Lorem ipsum DOLOR sit amet consectetur adipisicing elit. Eos, saepe.</p>
-            </div>
-        </div>
+        <div class="message-area"></div>
+        
         <div>
             <textarea id="textarea" cols="30" rows="1" placeholder="Type a message ..."></textarea>
         </div>
     </section>
+    
     <!-- Client Side Script -->
     <script src="/socket.io/socket.io.js"></script>
     <script src="/client.js"></script>
